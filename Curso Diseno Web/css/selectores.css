@@ -1,0 +1,35 @@
+* {} /* Selector universal, selecciona todos los elementos de la pagina */
+
+/* Ejemplos de selector de Etiqueta */
+h1, h2, h3, h4, h5, h6 {
+	color: blue;
+}
+
+p {
+	color:red;
+}
+
+/* Ejemplos de Selector Descendente */
+
+div p {
+	font-size: 20px;
+	color:black;
+}
+
+div p a {
+	color:red;
+}
+
+/* Ejemplo de Selector de Clase */
+
+.grande {
+	font-size: 28px;
+}
+
+/* Ejemplo de Selector de ID */
+#rojo {
+	color:red;
+}
+
+/* Ejemplo de Combinacion de Selectores */
+.main article p {}

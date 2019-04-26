@@ -1,0 +1,2 @@
+Esta carpeta es el theme que creamos durante el curso.
+Para poder activarlo en wordpress, este theme tiene que ir en la carpeta dentro de wordpress/wp-content/themes
