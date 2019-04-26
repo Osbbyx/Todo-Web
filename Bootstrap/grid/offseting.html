@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<title>Offseting</title>
+	<style>
+		.row {
+			background: #e8e8e8;
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+
+		.columna {
+			background: #f2f2f2;
+			text-align: center;
+			padding: 10px;
+			border: 1px solid #4d5061;
+		}
+
+		.margen {
+			margin-left: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="columna col-auto">Columna 1</div>
+			<div class="columna col-auto ml-auto">Columna 2</div>
+		</div>
+
+		<div class="row">
+			<div class="columna col-4 mr-md-auto margen">Columna 1</div>
+			<div class="columna col-4 mr-md-auto">Columna 2</div>
+		</div>
+	</div>
+	
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

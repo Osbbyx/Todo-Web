@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Columnas con ancho automatico</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<style>
+		.row > div {
+			/*margin: 10px 0;*/
+			text-align: center;
+
+			background: #f2f2f2;
+		}
+
+		.uno {background: #f2f2f2;}
+		.dos {background: #dbdbdb; padding:0 20px;}
+		.tres {background: #f2f2f2;}
+	</style>
+</head>
+<body>
+<!-- 
+	Con Boostrap 4 Podemos hacer columnas que tengan un ancho automatico dependiendo del contenido que tengan.
+ -->
+	<!-- <div class="container">
+		<div class="row">
+			<div class="uno col">
+				<h3>Columna #1</h3>
+			</div>
+			<div class="dos col col-xl-auto">
+				<h3>Columna #2</h3>
+			</div>
+			<div class="tres col">
+				<h3>Columna #3</h3>
+			</div>
+		</div>
+	</div> -->
+
+<!-- 
+	Columnas del mismo ancho en multiples filas.
+ -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h4>Columna #1</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="col">
+				<h4>Columna #2</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			
+			<!-- La clase .w-100 nos permite darle un ancho del 100%. -->
+			<div class="w-100"></div>
+
+			<div class="col">
+				<h4>Columna #3</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="col">
+				<h4>Columna #4</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

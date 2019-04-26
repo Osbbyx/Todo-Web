@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Bordes</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+		.caja {
+			border: 1px solid #000;
+			width: 100px;
+			height: 100px;
+			display: inline-block;
+			margin: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col-6">
+				<div class="caja bg-light"></div>
+				<div class="caja bg-light border-0"></div>
+				<div class="caja bg-light border-top-0"></div>
+				<div class="caja bg-light border-right-0"></div>
+				<div class="caja bg-light border-bottom-0"></div>
+				<div class="caja bg-light border-left-0"></div>
+			</div>
+
+			<div class="col-6">
+				<div class="caja border-primary"></div>
+				<div class="caja border-secondary"></div>
+				<div class="caja border-success"></div>
+				<div class="caja border-danger"></div>
+				<div class="caja border-warning"></div>
+				<div class="caja border-info"></div>
+				<div class="caja border-light"></div>
+				<div class="caja border-dark"></div>
+				<div class="caja border-white"></div>
+			</div>
+
+			<div class="col-6">
+				<div class="caja bg-primary border-0 rounded"></div>
+				<div class="caja bg-primary border-0 rounded-top"></div>
+				<div class="caja bg-primary border-0 rounded-right"></div>
+				<div class="caja bg-primary border-0 rounded-bottom"></div>
+				<div class="caja bg-primary border-0 rounded-left"></div>
+				<div class="caja bg-primary border-0 rounded-circle"></div>
+				<div class="caja bg-primary border-0 rounded-0"></div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

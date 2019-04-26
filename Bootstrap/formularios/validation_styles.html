@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Estilos para Validacion</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col">
+				<form action="" id="needs-validation" novalidate>
+					<div class="row mb-3">
+						<div class="col">
+							<input type="text" class="form-control is-valid" name="nombre" placeholder="Nombre" required>
+						</div>
+					</div>
+
+					<div class="row mb-3">
+						<div class="col">
+							<input type="text" class="form-control is-invalid" name="correo" placeholder="Correo Electronico" required>
+							<div class="invalid-feedback">
+								Por favor ingresa un correo electronico
+							</div>
+						</div>
+					</div>
+
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
